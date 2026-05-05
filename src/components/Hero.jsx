@@ -1,3 +1,4 @@
+import profilePhoto from '../assets/profile.jpg'
 function Hero() {
   return (
     <section id="home" style={{
@@ -9,7 +10,7 @@ function Hero() {
 
       <div style={{ flex: 1 }}>
         <h1 style={{ fontSize: '64px', fontWeight: '700', lineHeight: 1.1, color: '#f1f5f9' }}>
-          NISHTHA<br />
+          NISHTHABEN<br />
           <span style={{ color: '#60a5fa' }}>VAGHANI</span>
         </h1>
 
@@ -67,19 +68,18 @@ function Hero() {
       </div>
 
       <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
-        <div style={{
-          width: '280px',
-          height: '280px',
-          borderRadius: '50%',
-          border: '4px solid #60a5fa',
-          background: '#1e293b',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: '64px',
-        }}>
-          👤
-        </div>
+        <img
+            src={profilePhoto}
+            alt="Nishtha Vaghani"
+            style={{
+            width: '280px',
+            height: '280px',
+            borderRadius: '50%',
+            border: '4px solid #60a5fa',
+            objectFit: 'cover',
+            objectPosition: 'center top',
+            }}
+        />
       </div>
 
     </section>
