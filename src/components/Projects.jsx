@@ -90,15 +90,25 @@ function Projects() {
       }}>
         {projects.map(function(project) {
           return (
-            <div key={project.title} style={{
-              background: '#1e293b',
-              border: '1px solid #334155',
-              borderRadius: '12px',
-              padding: '28px',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '12px',
-            }}>
+            <div
+              key={project.title}
+              onMouseEnter={function(e) {
+                e.currentTarget.style.borderColor = '#60a5fa'
+              }}
+              onMouseLeave={function(e) {
+                e.currentTarget.style.borderColor = '#334155'
+              }}
+              style={{
+                background: '#1e293b',
+                border: '1px solid #334155',
+                borderRadius: '12px',
+                padding: '28px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '12px',
+                transition: 'border-color 0.2s',
+              }}
+          >
               <p style={{ fontSize: '13px', color: '#64748b', fontWeight: '500' }}>{project.dates}</p>
               <h3 style={{ fontSize: '18px', fontWeight: '600', color: '#f1f5f9', lineHeight: '1.4' }}>
                 {project.title}

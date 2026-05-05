@@ -61,7 +61,7 @@ function Hero() {
         </div>
 
         <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-          <a href="https://github.com" target="_blank" style={{ color: '#60a5fa', fontSize: '14px' }}>GitHub</a>
+          <a href="https://github.com/nish0104" target="_blank" style={{ color: '#60a5fa', fontSize: '14px' }}>GitHub</a>
           <a href="https://linkedin.com/in/nishtha0104" target="_blank" style={{ color: '#60a5fa', fontSize: '14px' }}>LinkedIn</a>
           <a href="mailto:vaghani.n@northeastern.edu" style={{ color: '#60a5fa', fontSize: '14px' }}>Email</a>
         </div>
