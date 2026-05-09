@@ -2,6 +2,13 @@ function Projects() {
   const projects = [
     
     {
+      title: 'SEC Filing ETL + RAG Q&A Engine',
+      dates: '2025',
+      tags: ['Python', 'LangChain', 'ChromaDB', 'Ollama', 'RAG', 'NLP', 'Streamlit'],
+      description: 'End-to-end data pipeline that fetches SEC 10-K/10-Q filings from the free EDGAR API, parses and embeds them into a local vector database, and answers natural language questions using a fully local RAG chain with zero API costs.',
+      github: 'https://github.com/nish0104/sec-rag-pipeline',
+    },
+    {
       title: 'Voice-to-Case Ticket Generator & Call QA Monitor',
       dates: '2025',
       tags: ['Python', 'Whisper', 'NLP', 'Pandas', 'gTTS'],
