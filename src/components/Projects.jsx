@@ -2,6 +2,13 @@ function Projects() {
   const projects = [
     
     {
+      title: 'FDA Drug Adverse Event Analysis Pipeline',
+      dates: '2025',
+      tags: ['Python', 'FDA FAERS API', 'Pharmacovigilance', 'ROR', 'NetworkX', 'Plotly', 'Streamlit'],
+      description: 'End-to-end pharmacovigilance pipeline that fetches real adverse event reports from the FDA FAERS API, detects drug-reaction signals using Reporting Odds Ratio (ROR) — the same method used by FDA analysts — and visualizes drug interaction networks through an interactive clinical-style Streamlit dashboard.',
+      github: 'https://github.com/nish0104/faers-pipeline',
+    },
+    {
       title: 'SEC Filing ETL + RAG Q&A Engine',
       dates: '2025',
       tags: ['Python', 'LangChain', 'ChromaDB', 'Ollama', 'RAG', 'NLP', 'Streamlit'],
