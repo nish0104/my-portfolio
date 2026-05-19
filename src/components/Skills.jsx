@@ -10,19 +10,23 @@ function Skills() {
     },
     {
       title: 'Databases',
-      skills: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB'],
+      skills: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB', 'ChromaDB', 'DuckDB'],
     },
     {
       title: 'Data Engineering',
-      skills: ['ETL Pipelines', 'Data Quality', 'Data Governance', 'Apache Spark'],
+      skills: ['ETL/ELT Pipelines', 'Apache Spark', 'Prefect', 'Great Expectations', 'dbt-style SQL', 'Parquet', 'Data Quality', 'Data Governance'],
     },
     {
       title: 'Machine Learning & Statistics',
-      skills: ['Linear Regression', 'Logistic Regression', 'Random Forest', 'SVM', 'K-Means', 'LASSO', 'Hypothesis Testing', 'Time Series'],
+      skills: ['Linear Regression', 'Logistic Regression', 'Random Forest', 'SVM', 'K-Means', 'LASSO', 'BERT', 'VADER', 'Hypothesis Testing', 'Time Series', 'ROR'],
     },
     {
-      title: 'Tools & Other',
-      skills: ['GitHub', 'Jupyter', 'Google Colab', 'VS Code', 'Power Query', 'PHP', 'Bootstrap'],
+      title: 'NLP & AI',
+      skills: ['LangChain', 'RAG Pipelines', 'ChromaDB', 'Ollama', 'OpenAI Whisper', 'gTTS', 'NLP Entity Extraction'],
+    },
+    {
+      title: 'Tools & Platforms',
+      skills: ['GitHub', 'Jupyter', 'Google Colab', 'VS Code', 'Microsoft Fabric', 'SafeGraph', 'BTS API', 'World Bank DataBank API'],
     },
   ]
 
@@ -34,7 +38,6 @@ function Skills() {
       justifyContent: 'center',
       padding: '80px',
     }}>
-
       <h2 style={{ fontSize: '36px', fontWeight: '700', color: '#f1f5f9' }}>
         Skills
       </h2>
@@ -46,7 +49,6 @@ function Skills() {
         marginTop: '12px',
         marginBottom: '40px',
       }} />
-
       <div style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(3, 1fr)',
@@ -83,7 +85,6 @@ function Skills() {
           )
         })}
       </div>
-
     </section>
   )
 }
