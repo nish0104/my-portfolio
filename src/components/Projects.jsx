@@ -16,10 +16,22 @@ function Projects() {
     },
     {
       title: 'FDA Drug Adverse Event Analysis Pipeline',
-      dates: '2025',
+      dates: '2026',
       tags: ['Python', 'FDA FAERS API', 'Pharmacovigilance', 'ROR', 'NetworkX', 'Plotly', 'Streamlit'],
       description: 'End-to-end pharmacovigilance pipeline that fetches real adverse event reports from the FDA FAERS API, detects drug-reaction signals using Reporting Odds Ratio (ROR) — the same method used by FDA analysts — and visualizes drug interaction networks through an interactive clinical-style Streamlit dashboard.',
       github: 'https://github.com/nish0104/faers-pipeline',
+    },
+    {
+      title: 'ArcBest ERM Signature Assessment',
+      dates: '2026',
+      tags: ['ERM', 'Risk Analytics', 'COSO', 'Power BI'],
+      description: 'Built an Enterprise Risk Management assessment for ArcBest acquisition of Uber Freight. Applied COSO ERM and Indicator & Warning methodology to monitor cybersecurity, competitive margin, and integration risks with measurable thresholds and escalation triggers.',
+    },
+    {
+      title: 'Healthcare Organization Executive Dashboard',
+      dates: '2026',
+      tags: ['Power BI', 'Data Integration', 'KPI Framework', 'Data Cleaning'],
+      description: 'Capstone project for a mission-driven healthcare organization. Built an integrated Power BI executive dashboard combining marketing, web engagement, fundraising, and impact metrics. Defined KPI framework, cleaned multi-source data, and delivered actionable recommendations.',
     },
     {
       title: 'SEC Filing ETL + RAG Q&A Engine',
@@ -33,18 +45,6 @@ function Projects() {
       dates: '2025',
       tags: ['Python', 'Whisper', 'NLP', 'Pandas', 'gTTS'],
       description: 'Healthcare ops pipeline that converts call audio into structured service tickets using Whisper transcription and NLP entity extraction. Built a QA scorecard flagging compliance gaps; achieved 100% intent accuracy and 75% full QA pass rate on a 100-call synthetic dataset.',
-    },
-    {
-      title: 'ArcBest ERM Signature Assessment',
-      dates: '2025',
-      tags: ['ERM', 'Risk Analytics', 'COSO', 'Power BI'],
-      description: 'Built an Enterprise Risk Management assessment for ArcBest acquisition of Uber Freight. Applied COSO ERM and Indicator & Warning methodology to monitor cybersecurity, competitive margin, and integration risks with measurable thresholds and escalation triggers.',
-    },
-    {
-      title: 'Healthcare Organization Executive Dashboard',
-      dates: '2025',
-      tags: ['Power BI', 'Data Integration', 'KPI Framework', 'Data Cleaning'],
-      description: 'Capstone project for a mission-driven healthcare organization. Built an integrated Power BI executive dashboard combining marketing, web engagement, fundraising, and impact metrics. Defined KPI framework, cleaned multi-source data, and delivered actionable recommendations.',
     },
     {
       title: 'Bitcoin Twitter Sentiment & Price Movement',
