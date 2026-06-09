@@ -9,7 +9,7 @@ function Projects() {
     },
     {
       title: 'US Flight Delay Analytics Pipeline',
-      dates: '2025',
+      dates: '2026',
       tags: ['Python', 'Prefect', 'DuckDB', 'Great Expectations', 'Medallion Architecture', 'Streamlit', 'BTS API'],
       description: 'Industry-level data engineering pipeline processing 970K+ BTS flight records using Medallion Architecture (Bronze/Silver/Gold). Orchestrated with Prefect flows, validated with Great Expectations across 12 data quality checks, transformed with dbt-style DuckDB SQL models, and served through a 7-page Streamlit analytics dashboard.',
       github: 'https://github.com/nish0104/flight-pipeline',
