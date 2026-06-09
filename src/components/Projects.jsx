@@ -1,6 +1,13 @@
 function Projects() {
   const projects = [
     {
+      title: 'NYC 311 Service Request Analytics',
+      dates: '2026',
+      tags: ['Python', 'dbt Core', 'BigQuery', 'GCP', 'Streamlit', 'SQL'],
+      description:
+        'End-to-end analytics pipeline on Google BigQuery processing 25.7M+ real NYC 311 service requests. Implemented a three-layer dbt architecture (Staging → Intermediate → Marts) with 6 SQL transformation models, 7 automated data quality tests, and a 4-page interactive Streamlit dashboard serving aggregated civic insights.',
+    },
+    {
       title: 'US Flight Delay Analytics Pipeline',
       dates: '2025',
       tags: ['Python', 'Prefect', 'DuckDB', 'Great Expectations', 'Medallion Architecture', 'Streamlit', 'BTS API'],
