@@ -10,11 +10,11 @@ function Skills() {
     },
     {
       title: 'Databases',
-      skills: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB', 'ChromaDB', 'DuckDB'],
+      skills: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB', 'ChromaDB', 'DuckDB', 'BigQuery'],
     },
     {
       title: 'Data Engineering',
-      skills: ['ETL/ELT Pipelines', 'Apache Spark', 'Prefect', 'Great Expectations', 'dbt-style SQL', 'Parquet', 'Data Quality', 'Data Governance'],
+      skills: ['ETL/ELT Pipelines', 'dbt Core', 'Apache Spark', 'Prefect', 'Great Expectations', 'Parquet', 'Medallion Architecture', 'Data Quality', 'Data Governance'],
     },
     {
       title: 'Machine Learning & Statistics',
@@ -25,8 +25,12 @@ function Skills() {
       skills: ['LangChain', 'RAG Pipelines', 'ChromaDB', 'Ollama', 'OpenAI Whisper', 'gTTS', 'NLP Entity Extraction'],
     },
     {
-      title: 'Tools & Platforms',
-      skills: ['GitHub', 'Jupyter', 'Google Colab', 'VS Code', 'Microsoft Fabric', 'SafeGraph', 'BTS API', 'World Bank DataBank API'],
+      title: 'Cloud & Platforms',
+      skills: ['GCP', 'BigQuery', 'IAM', 'Microsoft Fabric', 'SafeGraph', 'BTS API', 'FDA FAERS API', 'EDGAR API', 'World Bank DataBank API'],
+    },
+    {
+      title: 'Tools & Other',
+      skills: ['GitHub', 'Jupyter', 'Google Colab', 'VS Code', 'Excel', 'Power Query', 'PHP', 'Bootstrap'],
     },
   ]
 
